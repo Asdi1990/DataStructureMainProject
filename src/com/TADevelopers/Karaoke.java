@@ -9,8 +9,8 @@ public class Karaoke {
 
     public static void main(String[] args) {
         // write your code here
-
         SongsBook sBook = new SongsBook();
+        //below method is used to save files in text formats
         sBook.importFrom("songs.txt");
         KaraokeMachine kM = new KaraokeMachine(sBook);
         kM.run();
