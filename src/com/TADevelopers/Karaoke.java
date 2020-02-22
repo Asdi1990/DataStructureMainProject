@@ -14,6 +14,7 @@ public class Karaoke {
         sBook.importFrom("songs.txt");
         KaraokeMachine kM = new KaraokeMachine(sBook);
         kM.run();
+        //post method for saving the data
         System.out.println("Saving...");
         sBook.exportTo("songs.txt");
 
